@@ -27,19 +27,26 @@ public class HelloWorldExercises {
         int edad = 23;
         String color = "negro";
         // 5. Imprime tu edad, tu color favorito y tu ciudad.
-        System.out.printf(nombre,edad,color);
+        // usando .format
+        System.out.format("Nombre : %s, Edad: %d, Color Favorito: %s \n" ,nombre,edad,color);
+        // usando .println
+        System.out.println(nombre + " " + edad + " " + color);
         // 6. Explora los diferentes System.XXX.println(); más allá de "out".
 
         // 7. Utiliza varios println para imprimir una frase.
-
-        System.out.println("hola");
-        System.out.println("como");
-        System.out.println("estas");
-        System.out.println("?");
+        System.out.println(" ");
+        System.out.print("hola");
+        System.out.print("como");
+        System.out.print("estas");
+        System.out.print("?");
+        System.out.println(" ");
         // 8. Imprime un diseño ASCII (por ejemplo, una cara feliz usando símbolos).
-
+        char mychar = 46;
+        char mychar2 = 41;
+        System.out.println(mychar +" "+ mychar);
+        System.out.println(mychar2);
         // 9. Intenta ejecutar el programa sin el método main y observa el error.
-
+            // genera error de ejecucion
         //10. Intenta cambiar el nombre del archivo a uno diferente del de la clase y compílalo. ¿Qué pasa?
 
     }
