@@ -5,24 +5,37 @@ Clase 2 - Comentarios, Variables, Constantes, Tipos de datos y Operadores (09/04
 Vídeo: https://www.twitch.tv/videos/2428998601
 */
 
+import java.io.PrintStream;
+
 public class HelloWorldExercises {
 
     public static void main(String[] args) {
 
         // 1. Imprime un mensaje que diga tu nombre en lugar de "¡Hola Mundo!".
 
+        System.out.println("Eduardo Castro");
         // 2. Imprime dos líneas: "Hola" y luego "Mundo" con un solo println.
 
+        System.out.println("hola\nmundo");
         // 3. Añade un comentario sobre lo que hace cada línea del programa.
 
+        // solucion de ejercicios
+        // otro comentario
         // 4. Crea un comentario en varias líneas.
-
+        // definiendo variables
+        String nombre = "Eduardo";
+        int edad = 23;
+        String color = "negro";
         // 5. Imprime tu edad, tu color favorito y tu ciudad.
-
+        System.out.printf(nombre,edad,color);
         // 6. Explora los diferentes System.XXX.println(); más allá de "out".
 
         // 7. Utiliza varios println para imprimir una frase.
 
+        System.out.println("hola");
+        System.out.println("como");
+        System.out.println("estas");
+        System.out.println("?");
         // 8. Imprime un diseño ASCII (por ejemplo, una cara feliz usando símbolos).
 
         // 9. Intenta ejecutar el programa sin el método main y observa el error.
